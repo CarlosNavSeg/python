@@ -15,7 +15,7 @@ guardarse sin comillas sin problemas, o se puede introducir
 True o False a una variable para que actue como un comprobador,
 ya que estos son declaraciones especiales.
 
-De los Strings se pueden extraer carácteres de un índice con [].
+De los Strings se pueden extraer carácteres de un índice con []. La longitud empieza en 0.
 
 Las funciones de una variable se pueden utilizar con nombreDeLaVariable.
 Las funciones pueden combinarse.
