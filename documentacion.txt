@@ -1,0 +1,41 @@
+print: Imprime en la consola
+concat: Con un + se concatenan Strings.
+lower: Convierte todo en minusculas.
+upper: Convierte el String en mayúsculas
+isupper: Devuelve true si el String está en mayúsculas
+len: Devuelve la longitud del String.
+
+
+Python ejecuta las instrucciones una a una, de arriba a abajo.
+
+En Python las variables se definen sin tipo, solo con
+el nombre y su valor. Esto no quita que haya diferentes
+tipos de variables, por ejemplo los números pueden
+guardarse sin comillas sin problemas, o se puede introducir 
+True o False a una variable para que actue como un comprobador,
+ya que estos son declaraciones especiales.
+
+De los Strings se pueden extraer carácteres de un índice con [].
+
+Las funciones de una variable se pueden utilizar con nombreDeLaVariable.
+Las funciones pueden combinarse.
+
+Los carácteres especiales se marcan con \.
+
+
+Programas:
+-Hello world: print("Hello world")
+
+-Printear un triángulo: 
+print("   /|")
+print("  / |")
+print(" /  |")
+print("/___|")
+
+-Historia, introducción a las variables:
+character_name = "John"
+character_age = "35"
+print("Habia un hombre llamado" + character_name)
+print("que tenia" + character_age)
+print("le gustaba mucho el nombre" + character_age)
+print("pero no le gustaba tener" + character_age + "años.")
