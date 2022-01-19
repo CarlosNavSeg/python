@@ -5,6 +5,14 @@ upper: Convierte el String en mayúsculas
 isupper: Devuelve true si el String está en mayúsculas
 len: Devuelve la longitud del String.
 
+Listas:
+f1.extend( f2 ): añade dos listas
+f1.insert( index, f1): añade un elemento
+f1.remove(value): elimina el elemento
+f1.pop(): elimina el último elemento de la lista
+f1.count(value): contador 
+f1.reverse(): invierte el orden de la lista
+f2=f1.copy(): va a copiar las listas de una a otra
 
 Python ejecuta las instrucciones una a una, de arriba a abajo.
 
