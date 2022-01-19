@@ -22,6 +22,12 @@ Las funciones pueden combinarse.
 
 Los carácteres especiales se marcan con \.
 
+Las listas son variables que almacenan más de un valor.
+Para declarar una lista simplemente usamos nombreVariable[].
+Los elementos de una lista se acceden con su índice, que empieza en 0, los números
+negativos acceden a los últimos elementos de la lista desde -1 hasta el número de elementos de la lista en negativo.
+Con la expresion nombreVariable[indice1:indice2] accedemos a un rango de valores que tiene en cuenta el primer elemento
+hasta el segundo elemento-1.
 
 Programas:
 -Hello world: print("Hello world")
