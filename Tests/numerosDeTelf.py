@@ -1,0 +1,6 @@
+print("Escribe un número de telefono según la extensión codigo de país-número-extension")
+numeroDeTelf = str(input())
+index1 = int(numeroDeTelf.index("-") + 1)
+temp = str(numeroDeTelf.replace(numeroDeTelf, numeroDeTelf[index1]))
+index2 = int(numeroDeTelf.index("-"))
+print(numeroDeTelf[index1:index2])
