@@ -1,0 +1,5 @@
+print("Introduzca una frase")
+frase = str(input())
+print("Introduzca una vocal")
+vocal = str(input())
+print(frase.replace(vocal, vocal.upper()))
