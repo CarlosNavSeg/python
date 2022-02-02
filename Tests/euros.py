@@ -1,0 +1,6 @@
+print("Introduzca el valor numérico con , del precio")
+valor = str(input())
+euros = str(valor.replace(valor, valor[0:valor.index(",")]))
+centimos = valor.replace(valor, valor[valor.index(",")+1:len(valor)])
+print("Euros:" + euros)
+print("Centimos" + centimos)
